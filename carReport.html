@@ -11,7 +11,13 @@
 		<div style="background-color: #EEEEEE; padding: 10px;">
 			<div class="form-inline">
 				<div class="form-group">
+					<input type="text" class="layui-input" placeholder="选择部门">
+				</div>
+				<div class="form-group">
 					<input type="text" class="layui-input" placeholder="选择车辆">
+				</div>
+				<div class="form-group">
+					<input type="text" class="layui-input" placeholder="自定义事件" >
 				</div>
 				<div class="form-group">
 					<input type="text" class="layui-input" placeholder="开始时间" id="startTime">
@@ -19,9 +25,7 @@
 				<div class="form-group">
 					<input type="text" class="layui-input" placeholder="结束时间" id="endTime">
 				</div>
-				<div class="form-group">
-					<input type="text" class="layui-input" placeholder="报警类型" id="test2">
-				</div>
+				
 				<div class="form-group">
 					<button type="button" class="btn btn-primary" aria-label="Left Align">
   			<span class="glyphicon glyphicon-search"  aria-hidden="true"></span> 搜索</button>
@@ -43,5 +47,73 @@
 				type: 'datetime'
 			});
 		</script>
+		
+		<!-- Tab panes -->
+		<div class="tab-content">
+			<div role="tabpanel" class="tab-pane active" >
+				<div class="table-responsive">
+					<table class="table table-striped">
+						<thead>
+							<tr style="background-color: #1BB2E9;color: white;">
+								<th>序号</th>
+								<th>车牌 </th>
+								<th>所属部门</th>
+								<th>回传时间</th>
+								<th>状态</th>
+								<th>开始时间</th>
+								<th>结束时间</th>
+								<th>开始地点</th>
+								<th>结束地点</th>
+								<th>持续时间</th>
+								<th>行驶里程</th>
+								<th>区域</th>
+								<th>平均速度</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>1</td>
+								<td>
+									<a>删除</a>
+									<a>修改</a>
+								</td>
+								<td>货物</td>
+								<td>AXE-001</td>
+								<td>10</td>
+								<td>上海XX仓库</td>
+								<td>良好</td>
+								<td>链通天下</td>
+								<td>AXV1234567</td>
+								<td>塑料托盘</td>
+								<td>25KM</td>
+								<td>集庆门</td>
+								<td>南京市XXX</td>
+							</tr>
+							<tr>
+								<td>2</td>
+								<td>
+									<a>删除</a>
+									<a>修改</a>
+								</td>
+								<td>货物</td>
+								<td>AXE-001</td>
+								<td>10</td>
+								<td>上海XX仓库</td>
+								<td>良好</td>
+								<td>链通天下</td>
+								<td>AXV1234567</td>
+								<td>塑料托盘</td>
+								<td>25KM</td>
+								<td>集庆门</td>
+								<td>南京市XXX</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+		<div id="page" class="page_div" style="position: fixed;bottom: 0;"></div>
+		<script type="text/javascript" src="js/paging/paging.js"></script>
+		<script src="js/paging/pagingManager.js" type="text/javascript" charset="utf-8"></script>
 	</body>
 </html>
