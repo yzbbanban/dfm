@@ -408,3 +408,6 @@ body .site-demo-nav .layui-nav-item{line-height: 40px}
   .operation:hover{
   	color: #5E5E5E;
   }
+.setting-margin{
+	margin-top: 5px;
+}
