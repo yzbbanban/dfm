@@ -1,12 +1,75 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<meta charset="UTF-8">
 		<title>基础报警设置</title>
 		<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
-		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+		<script src="js/jquery-1.11.1.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="js/css/layui.css" />
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/paging/paging.css" />
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<style type="text/css">
+			html,body {
+				font-family: "微软雅黑";
+				font-weight: bold;
+				margin: 0px;
+				height: 100%;
+			}
+		</style>
 	</head>
-	<body>
-		<p>terry</p>
+
+	<body style="padding: 20px;">
+		<div style="height: 100%;border: 1px solid #DEDEDE;">
+			<ul class="nav nav-pills" role="tablist" style="padding: 5px;">
+				<li role="presentation" class="active" >
+					<a href="#tab-over" aria-controls="home" role="tab" data-toggle="tab">超速报警</a>
+				</li>
+				<li role="presentation">
+					<a href="#tab-stop" aria-controls="profile" role="tab" data-toggle="tab">停车报警</a>
+				</li>
+				<li role="presentation">
+					<a href="#tab-tired" aria-controls="profile" role="tab" data-toggle="tab">疲劳驾驶</a>
+				</li>
+				<li role="presentation">
+					<a href="#tab-open" aria-controls="profile" role="tab" data-toggle="tab">开门报警</a>
+				</li>
+				<li role="presentation">
+					<a href="#tab-fix" aria-controls="profile" role="tab" data-toggle="tab">故障报警</a>
+				</li>
+				<li role="presentation">
+					<a href="#tab-temp" aria-controls="profile" role="tab" data-toggle="tab">温度报警</a>
+				</li>
+			</ul>
+
+			<div class="tab-content">
+				<div role="tabpanel" class="tab-pane active" id="tab-over">
+					<div>
+						<span style="width: 200px;">超速设置</span>
+						<span><input type="checkbox" name="" id="" value="" />是</span>
+						<span><input type="checkbox" name="" id="" value="" />否</span>
+					</div>
+				</div>
+				<div role="tabpanel" class="tab-pane" id="tab-stop">
+					
+				</div>
+				<div role="tabpanel" class="tab-pane" id="tab-tired">
+					
+				</div>
+				<div role="tabpanel" class="tab-pane" id="tab-open">
+					
+				</div>
+				<div role="tabpanel" class="tab-pane" id="tab-fix">
+					
+				</div>
+				<div role="tabpanel" class="tab-pane" id="tab-temp">
+					
+				</div>
+				
+			</div>
+		</div>
+
 	</body>
+
 </html>
