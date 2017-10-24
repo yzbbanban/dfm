@@ -44,9 +44,10 @@
 			</ul>
 
 			<div class="tab-content">
+				<!-- 超速报警start-->
 				<div role="tabpanel" class="tab-pane active" id="tab-over">
 					<!--超速设置 start -->
-					<div style="padding: 20px;">
+					<div style="padding: 20px;padding: 20px;border-top:1px solid #DEDEDE">
 						<div class="row">
 							<div class="col-md-1">
 								<p style="width: 200px;">超速设置</p>
@@ -116,15 +117,15 @@
 					<div style="padding: 20px;border-top:1px solid #DEDEDE">
 						<div class="row">
 							<div class="col-md-1">
-								<p style="width: 200px;">适用范围</p>
+								<p style="width: 200px;">报警声音</p>
 							</div>
-							<div class="col-md-1"><input type="checkbox" name="" id="" /> 全局车辆</div>
-							<div class="col-md-1"><input type="checkbox" name="" id="" /> 自定义车辆</div>
+							<div class="col-md-1"><input type="checkbox" name="" id="" /> 开</div>
+							<div class="col-md-1"><input type="checkbox" name="" id="" /> 关</div>
 						</div>
 					</div>
 					<!--报警声音end -->
 					<!--操作 start-->
-					<footer class="footer navbar-fixed-bottom" style="background-color: initial;"> 
+					<footer class="footer navbar-fixed-bottom" style="background-color: initial;">
 						<div class="container">
 							<button class="btn btn-info">保存</button>
 							<button class="btn btn-default">取消</button>
@@ -132,21 +133,370 @@
 					</footer>
 					<!--操作end -->
 				</div>
+				<!-- 超速报警end-->
+				<!-- 停车报警start-->
 				<div role="tabpanel" class="tab-pane" id="tab-stop">
+					<!--停车未熄火start -->
+					<div style="padding: 20px;border-top:1px solid #DEDEDE">
+						<div class="row">
+							<div class="col-md-1">
+								<p style="width: 200px;">停车未熄火报警</p>
+							</div>
+							<div class="col-md-1"><input type="checkbox" name="" id="" /> 是</div>
+							<div class="col-md-1"><input type="checkbox" name="" id="" /> 否</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-1"></div>
+							<div class="col-xs-4 form-inline setting-margin">
+								<div class="form-group">
+									<label for="exampleInputName2">停车</label>
+									<input type="text" class="form-control" id="" placeholder=""> 分钟
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--停车未熄火end -->
+					<!--停车报警start -->
+					<div style="padding: 20px;border-top:1px solid #DEDEDE">
+						<div class="row">
+							<div class="col-md-1">
+								<p style="width: 200px;">停车报警</p>
+							</div>
+							<div class="col-md-1"><input type="checkbox" name="" id="" /> 是</div>
+							<div class="col-md-1"><input type="checkbox" name="" id="" /> 否</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-1"></div>
+							<div class="col-xs-4 form-inline setting-margin">
+								<div class="form-group">
+									<label for="exampleInputName2">停车</label>
+									<input type="text" class="form-control" id="" placeholder=""> 分钟
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--停车报警end -->
 
+					<!--适用范围start -->
+					<div style="padding: 20px;border-top:1px solid #DEDEDE">
+						<div class="row">
+							<div class="col-md-1">
+								<p style="width: 200px;">适用范围</p>
+							</div>
+							<div class="col-md-1"><input type="checkbox" name="" id="" /> 全局车辆</div>
+							<div class="col-md-1"><input type="checkbox" name="" id="" /> 自定义车辆</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-1">
+							</div>
+							<div class="col-xs-2">
+								<select class="form-control">
+									<option>1</option>
+									<option>2</option>
+									<option>3</option>
+									<option>4</option>
+									<option>5</option>
+								</select>
+							</div>
+						</div>
+					</div>
+					<!--适用范围end -->
+					<!--报警声音start -->
+					<div style="padding: 20px;border-top:1px solid #DEDEDE">
+						<div class="row">
+							<div class="col-md-1">
+								<p style="width: 200px;">报警声音</p>
+							</div>
+							<div class="col-md-1"><input type="checkbox" name="" id="" /> 开</div>
+							<div class="col-md-1"><input type="checkbox" name="" id="" /> 关</div>
+						</div>
+					</div>
+					<!--报警声音end -->
+					<!--操作 start-->
+					<footer class="footer navbar-fixed-bottom" style="background-color: initial;">
+						<div class="container">
+							<button class="btn btn-info">保存</button>
+							<button class="btn btn-default">取消</button>
+						</div>
+					</footer>
+					<!--操作end -->
 				</div>
+				<!-- 停车报警end-->
+				<!-- 疲劳驾驶start-->
 				<div role="tabpanel" class="tab-pane" id="tab-tired">
-
+					<!--连续行驶报警start -->
+					<div style="padding: 20px;border-top:1px solid #DEDEDE">
+						<div class="row">
+							<div class="col-md-1">
+								<p style="width: 200px;">连续行驶报警</p>
+							</div>
+							<div class="col-md-1"><input type="checkbox" name="" id="" /> 启用</div>
+							<div class="col-md-1"><input type="checkbox" name="" id="" /> 不启用</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-1"></div>
+							<div class="col-xs-4 form-inline setting-margin">
+								<div class="form-group">
+									<label for="exampleInputName2">连续行驶</label>
+									<input type="text" class="form-control" id="" placeholder=""> 小时
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--连续行驶报警end -->
+					<!--规定休息时间start -->
+					<div style="padding: 20px;border-top:1px solid #DEDEDE">
+						<div class="row">
+							<div class="col-md-1">
+								<p style="width: 200px;">连续行驶报警</p>
+							</div>
+							<div class="col-md-1"><input type="checkbox" name="" id="" /> 启用</div>
+							<div class="col-md-1"><input type="checkbox" name="" id="" /> 不启用</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-1"></div>
+							<div class="col-xs-4 form-inline setting-margin">
+								<div class="form-group">
+									<label for="exampleInputName2">休息</label>
+									<input type="text" class="form-control" id="" placeholder=""> 分钟
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--规定休息时间	end -->
+					<!--适用范围start -->
+					<div style="padding: 20px;border-top:1px solid #DEDEDE">
+						<div class="row">
+							<div class="col-md-1">
+								<p style="width: 200px;">适用范围</p>
+							</div>
+							<div class="col-md-1"><input type="checkbox" name="" id="" /> 全局车辆</div>
+							<div class="col-md-1"><input type="checkbox" name="" id="" /> 自定义车辆</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-1">
+							</div>
+							<div class="col-xs-2">
+								<select class="form-control">
+									<option>1</option>
+									<option>2</option>
+									<option>3</option>
+									<option>4</option>
+									<option>5</option>
+								</select>
+							</div>
+						</div>
+					</div>
+					<!--适用范围end -->
+					<!--操作 start-->
+					<footer class="footer navbar-fixed-bottom" style="background-color: initial;">
+						<div class="container">
+							<button class="btn btn-info">保存</button>
+							<button class="btn btn-default">取消</button>
+						</div>
+					</footer>
+					<!--操作end -->
 				</div>
+				<!-- 疲劳驾驶end-->
+				<!-- 开门报警start-->
 				<div role="tabpanel" class="tab-pane" id="tab-open">
-
+					<!--适用范围start -->
+					<div style="padding: 20px;border-top:1px solid #DEDEDE">
+						<div class="row">
+							<div class="col-md-1">
+								<p style="width: 200px;">适用范围</p>
+							</div>
+							<div class="col-md-1"><input type="checkbox" name="" id="" /> 全局车辆</div>
+							<div class="col-md-1"><input type="checkbox" name="" id="" /> 自定义车辆</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-1">
+							</div>
+							<div class="col-xs-2">
+								<select class="form-control">
+									<option>1</option>
+									<option>2</option>
+									<option>3</option>
+									<option>4</option>
+									<option>5</option>
+								</select>
+							</div>
+						</div>
+					</div>
+					<!--适用范围end -->
+					<!--报警声音start -->
+					<div style="padding: 20px;border-top:1px solid #DEDEDE">
+						<div class="row">
+							<div class="col-md-1">
+								<p style="width: 200px;">报警声音</p>
+							</div>
+							<div class="col-md-1"><input type="checkbox" name="" id="" /> 开</div>
+							<div class="col-md-1"><input type="checkbox" name="" id="" /> 关</div>
+						</div>
+					</div>
+					<!--报警声音end -->
+					<!--操作 start-->
+					<footer class="footer navbar-fixed-bottom" style="background-color: initial;">
+						<div class="container">
+							<button class="btn btn-info">保存</button>
+							<button class="btn btn-default">取消</button>
+						</div>
+					</footer>
+					<!--操作end -->
 				</div>
+				<!-- 开门报警end-->
+
+				<!-- 故障报警start-->
 				<div role="tabpanel" class="tab-pane" id="tab-fix">
-
+					<!--适用范围start -->
+					<div style="padding: 20px;border-top:1px solid #DEDEDE">
+						<div class="row">
+							<div class="col-md-1">
+								<p style="width: 200px;">适用范围</p>
+							</div>
+							<div class="col-md-1"><input type="checkbox" name="" id="" /> 全局车辆</div>
+							<div class="col-md-1"><input type="checkbox" name="" id="" /> 自定义车辆</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-1">
+							</div>
+							<div class="col-xs-2">
+								<select class="form-control">
+									<option>1</option>
+									<option>2</option>
+									<option>3</option>
+									<option>4</option>
+									<option>5</option>
+								</select>
+							</div>
+						</div>
+					</div>
+					<!--适用范围end -->
+					<!--报警声音start -->
+					<div style="padding: 20px;border-top:1px solid #DEDEDE">
+						<div class="row">
+							<div class="col-md-1">
+								<p style="width: 200px;">报警声音</p>
+							</div>
+							<div class="col-md-1"><input type="checkbox" name="" id="" /> 开</div>
+							<div class="col-md-1"><input type="checkbox" name="" id="" /> 关</div>
+						</div>
+					</div>
+					<!--报警声音end -->
+					<!--操作 start-->
+					<footer class="footer navbar-fixed-bottom" style="background-color: initial;">
+						<div class="container">
+							<button class="btn btn-info">保存</button>
+							<button class="btn btn-default">取消</button>
+						</div>
+					</footer>
+					<!--操作end -->
 				</div>
+				<!-- 故障报警end-->
+				<!-- 温度报警start-->
 				<div role="tabpanel" class="tab-pane" id="tab-temp">
+					<!--温度设置start -->
+					<div style="padding: 20px;border-top:1px solid #DEDEDE">
+						<div class="row">
+							<div class="ccol-xs-1">
+								适用范围
+							</div>
+						</div>
+						<div class="row  form-inline">
+							<div class="col-xs-1">
+							</div>
+							<div class="col-xs-5 form-inline setting-margin">
+								<label for="exampleInputName2">电机温度&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;最高温度</label>
+								<input type="text" class="form-control" id="" placeholder=""> °C
+							</div>
+							<div class="col-xs-5 form-inline setting-margin">
+								<label for="exampleInputName2">最低温度</label>
+								<input type="text" class="form-control" id="" placeholder=""> °C
+							</div>
+						</div>
+						<div class="row  form-inline">
+							<div class="col-xs-1">
+							</div>
+							<div class="col-xs-5 form-inline setting-margin">
+								<label for="exampleInputName2">电机控制器温度&nbsp;&nbsp;最高温度</label>
+								<input type="text" class="form-control" id="" placeholder=""> °C
+							</div>
+							<div class="col-xs-5 form-inline setting-margin">
+								<label for="exampleInputName2">最低温度</label>
+								<input type="text" class="form-control" id="" placeholder=""> °C
+							</div>
+						</div>
+						<div class="row  form-inline">
+							<div class="col-xs-1">
+							</div>
+							<div class="col-xs-5 form-inline setting-margin">
+								<label for="exampleInputName2">电池温度&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;最高温度</label>
+								<input type="text" class="form-control" id="" placeholder=""> °C
+							</div>
+							<div class="col-xs-5 form-inline setting-margin">
+								<label for="exampleInputName2">最低温度</label>
+								<input type="text" class="form-control" id="" placeholder=""> °C
+							</div>
+						</div>
+						<div class="row  form-inline">
+							<div class="col-xs-1">
+							</div>
+							<div class="col-xs-5 form-inline setting-margin">
+								<label for="exampleInputName2">发动机水温&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;最高温度</label>
+								<input type="text" class="form-control" id="" placeholder=""> °C
+							</div>
+							<div class="col-xs-5 form-inline setting-margin">
+								<label for="exampleInputName2">最低温度</label>
+								<input type="text" class="form-control" id="" placeholder=""> °C
+							</div>
+						</div>
 
+					</div>
+					<!-- 温度设置end-->
+					<!--适用范围start -->
+					<div style="padding: 20px;border-top:1px solid #DEDEDE">
+						<div class="row">
+							<div class="col-md-1">
+								<p style="width: 200px;">适用范围</p>
+							</div>
+							<div class="col-md-1"><input type="checkbox" name="" id="" /> 全局车辆</div>
+							<div class="col-md-1"><input type="checkbox" name="" id="" /> 自定义车辆</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-1">
+							</div>
+							<div class="col-xs-2">
+								<select class="form-control">
+									<option>1</option>
+									<option>2</option>
+									<option>3</option>
+									<option>4</option>
+									<option>5</option>
+								</select>
+							</div>
+						</div>
+					</div>
+					<!--适用范围end -->
+					<div style="padding: 20px;border-top:1px solid #DEDEDE">
+						<div class="row">
+							<div class="col-md-1">
+								<p style="width: 200px;">报警声音</p>
+							</div>
+							<div class="col-md-1"><input type="checkbox" name="" id="" /> 开</div>
+							<div class="col-md-1"><input type="checkbox" name="" id="" /> 关</div>
+						</div>
+					</div>
+					<!--报警声音end -->
+					<!--操作 start-->
+					<footer class="footer navbar-fixed-bottom" style="background-color: initial;">
+						<div class="container">
+							<button class="btn btn-info">保存</button>
+							<button class="btn btn-default">取消</button>
+						</div>
+					</footer>
+					<!--操作end -->
 				</div>
+				<!-- 温度报警end-->
 
 			</div>
 		</div>
