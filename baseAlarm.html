@@ -4,14 +4,13 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>基础报警设置</title>
-		<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/jquery-1.11.1.js" type="text/javascript" charset="utf-8"></script>
-		<link rel="stylesheet" type="text/css" href="js/css/layui.css" />
 		<link rel="stylesheet" href="css/bootstrap.min.css" />
 		<link rel="stylesheet" href="css/paging/paging.css" />
-		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
 		<style type="text/css">
-			html,body {
+			html,
+			body {
 				font-family: "微软雅黑";
 				font-weight: bold;
 				margin: 0px;
@@ -21,9 +20,13 @@
 	</head>
 
 	<body style="padding: 20px;">
-		<div style="height: 100%;border: 1px solid #DEDEDE;">
-			<ul class="nav nav-pills" role="tablist" style="padding: 5px;">
-				<li role="presentation" class="active" >
+		<div class="row">
+			<div class="col-md-6">.col-md-6</div>
+			<div class="col-md-6">.col-md-6</div>
+		</div>
+		<div class="container-fluid" style="height: 100%;border: 1px solid #DEDEDE;">
+			<ul class="nav nav-pills" role="tablist" style="padding-top: 5px;">
+				<li role="presentation" class="active">
 					<a href="#tab-over" aria-controls="home" role="tab" data-toggle="tab">超速报警</a>
 				</li>
 				<li role="presentation">
@@ -43,30 +46,31 @@
 				</li>
 			</ul>
 
-			<div class="tab-content">
+			<div class="tab-content" style="padding: 20px;">
 				<div role="tabpanel" class="tab-pane active" id="tab-over">
 					<div>
-						<span style="width: 200px;">超速设置</span>
-						<span><input type="checkbox" name="" id="" value="" />是</span>
-						<span><input type="checkbox" name="" id="" value="" />否</span>
+						<p style="width: 200px;">超速设置</p>
+						<input type="checkbox" name="" id="" value="" />是
+						<input type="checkbox" name="" id="" value="" />否
 					</div>
+
 				</div>
 				<div role="tabpanel" class="tab-pane" id="tab-stop">
-					
+
 				</div>
 				<div role="tabpanel" class="tab-pane" id="tab-tired">
-					
+
 				</div>
 				<div role="tabpanel" class="tab-pane" id="tab-open">
-					
+
 				</div>
 				<div role="tabpanel" class="tab-pane" id="tab-fix">
-					
+
 				</div>
 				<div role="tabpanel" class="tab-pane" id="tab-temp">
-					
+
 				</div>
-				
+
 			</div>
 		</div>
 
