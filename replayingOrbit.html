@@ -14,23 +14,56 @@
 
 	<body>
 		<div class="form-inline">
-		<div class="form-group">
-					<input type="text" class="layui-input" placeholder="请输入电子围栏名称">
-				</div>
-					<button type="button" class="btn btn-primary" aria-label="Left Align">
-  			<span class="glyphicon glyphicon-search" aria-hidden="true"></span> 搜索</button>
-		<div class="layui-btn-group" style="float: right;">
-			<select name="city" lay-verify="">
-  <option value="010">北京</option>
-  <option value="021" disabled>上海（禁用效果）</option>
-  <option value="0571" selected>杭州</option>
-</select>
-			<button class="layui-btn">电子围栏</button>
-			<button class="layui-btn">地图工具</button>
-			<button class="layui-btn">百度地图</button>
-			<button class="layui-btn">百度地图</button>
-		</div>
+			<div class="form-group">
+				<input type="text" class="layui-input" placeholder="请输入电子围栏名称">
 			</div>
+			<button type="button" class="btn btn-primary" aria-label="Left Align">
+  			<span class="glyphicon glyphicon-search" aria-hidden="true"></span> 搜索</button>
+  			<!-- Single button -->
+  			<div style="float: right;">
+<div class="btn-group">
+  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    监控模式 <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu">
+    <li><a href="#">Action</a></li>
+    <li><a href="#">Another action</a></li>
+    <li><a href="#">Something else here</a></li>
+  </ul>
+</div>
+<div class="btn-group">
+<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" 	="false">
+    电子围栏 <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu">
+    <li><a href="#">Action</a></li>
+    <li><a href="#">Another action</a></li>
+    <li><a href="#">Something else here</a></li>
+  </ul>
+  </div>
+  <div class="btn-group">
+  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    地图工具 <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu">
+    <li><a href="#">Action</a></li>
+    <li><a href="#">Another action</a></li>
+    <li><a href="#">Something else here</a></li>
+  </ul>
+  </div>
+  <div class="btn-group">
+  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    百度地图 <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu">
+    <li><a href="#">Action</a></li>
+    <li><a href="#">Another action</a></li>
+    <li><a href="#">Something else here</a></li>
+  </ul>
+		</div>
+		</div>
+		</div>
+		<iframe style="width: 100%;height:500px;background-color: #009E94;"></iframe>
 	</body>
 
 </html>
