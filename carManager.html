@@ -6,6 +6,7 @@
 		<link rel="stylesheet" type="text/css" href="js/css/layui.css" />
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
 		<link rel="stylesheet" href="css/paging/paging.css" />
+		<link rel="stylesheet" type="text/css" href="css/global.css" media="all" />
 		<script type="text/javascript" src="js/jquery-1.11.1.js"></script>
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
 		<meta charset="UTF-8">
@@ -101,6 +102,7 @@
 					<table class="table table-striped">
 						<thead>
 							<tr style="background-color: #1BB2E9;color: white;">
+								<th><input type="checkbox" /></th>
 								<th>序号</th>
 								<th>车牌 </th>
 								<th>所属部门</th>
@@ -118,10 +120,11 @@
 						</thead>
 						<tbody>
 							<tr>
+								<td><input type="checkbox" /></td>
 								<td>1</td>
 								<td>
-									<a>删除</a>
-									<a>修改</a>
+									<button type="button" class="operation">删除</button>
+							<button type="button" class="operation">修改</button>
 								</td>
 								<td>货物</td>
 								<td>AXE-001</td>
@@ -136,10 +139,11 @@
 								<td>南京市XXX</td>
 							</tr>
 							<tr>
+								<td><input type="checkbox" /></td>
 								<td>2</td>
 								<td>
-									<a>删除</a>
-									<a>修改</a>
+									<button type="button" class="operation">删除</button>
+							<button type="button" class="operation">修改</button>
 								</td>
 								<td>货物</td>
 								<td>AXE-001</td>
