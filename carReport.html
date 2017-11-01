@@ -11,6 +11,11 @@
 		<script type="text/javascript" src="js/jquery-1.11.1.js"></script>
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
 		<title>车身数据报表</title>
+		<style>
+			th{
+				text-align: center;
+			}
+		</style>
 	</head>
 
 	<body>
@@ -57,11 +62,11 @@
 		<!-- Tab panes -->
 		<div class="tab-content">
 			<div role="tabpanel" class="tab-pane active">
-				<div class="table-responsive">
-					<table class="table table-striped">
+				<div class="table-responsive" style="overflow:scroll;">
+					<table class="table table-striped" style=" white-space:nowrap;">
 						<thead>
 							<tr style="background-color: #1BB2E9;color: white;">
-								<th rowspan="2">序号</th>
+								<th rowspan="2" >序号</th>
 								<th rowspan="2">车牌 </th>
 								<th rowspan="2">所属部门</th>
 								<th rowspan="2">回传时间</th>
